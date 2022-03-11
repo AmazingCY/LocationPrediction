@@ -3,9 +3,9 @@
 ## 1. Introduction
 
  __This model is used for location prediction by improved RNNs.__  
-    __We follow the work from Flashback(https://www.ijcai.org/Proceedings/2020/0302.pdf).
-    Thanks for the original code from https://github.com/eXascaleInfolab/Flashback_code. Based on it,
-    we have extended the framework, and added new methods for more tasks.__
+    __We follow the work from Flashback(https://www.ijcai.org/Proceedings/2020/0302.pdf).  
+    Thanks for the original code from https://github.com/eXascaleInfolab/Flashback_code. 
+    Based on it, we have extended the framework, and added new methods for more tasks.__
     
 ## 2. Dataset
 __All dataset and data processing can be found from https://github.com/AmazingCY/DataAnalyze.__
@@ -25,5 +25,6 @@ __python 3.5
 ## 4. Some results
 
 ### 4.1 AIS dataset
-
+![result1](https://github.com/AmazingCY/LocationPrediction/blob/main/result/result1.JPG)
 ### 4.2 Check-in dataset
+![result2](https://github.com/AmazingCY/LocationPrediction/blob/main/result/result2.JPG)
