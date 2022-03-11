@@ -1,0 +1,279 @@
+nohup: ignoring input
+parse with gowalla default settings
+use device: cuda:0
+Dataset:Gowalla
+Split.TRAIN load 17271 users with max_seq_count 145 batches: 634
+Split.TEST load 17271 users with max_seq_count 36 batches: 144
+Start training!. Use pytorch Transformer implementation.
+***Epoch:1/50***
+/data/caoyu/anaconda3/envs/loc_prediction/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:396: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+Used learning rate:0.01 ----- Avg Loss:10.315
+Train Time:58.739
+***Epoch:2/50***
+Used learning rate:0.01 ----- Avg Loss:7.700
+Train Time:57.389
+***Epoch:3/50***
+Used learning rate:0.01 ----- Avg Loss:6.313
+Train Time:60.368
+***Epoch:4/50***
+Used learning rate:0.01 ----- Avg Loss:5.774
+Train Time:57.374
+***Epoch:5/50***
+Used learning rate:0.01 ----- Avg Loss:5.543
+Train Time:57.357
+~~~ Test Set Evaluation (Epoch:5) ~~~
+recall@1: 0.10497454
+recall@5: 0.26737269
+recall@10: 0.34449769
+precision@1: 0.04576389
+precision@5: 0.04062500
+precision@10: 0.02023380
+F-score@1: 0.06374012
+F-score@5: 0.07053310
+F-score@10: 0.03822262
+MAP 0.18335896
+predictions: 432000.0
+***Epoch:6/50***
+Used learning rate:0.01 ----- Avg Loss:5.441
+Train Time:57.388
+***Epoch:7/50***
+Used learning rate:0.01 ----- Avg Loss:5.344
+Train Time:58.932
+***Epoch:8/50***
+Used learning rate:0.01 ----- Avg Loss:5.269
+Train Time:57.382
+***Epoch:9/50***
+Used learning rate:0.01 ----- Avg Loss:5.196
+Train Time:57.374
+***Epoch:10/50***
+Used learning rate:0.0001 ----- Avg Loss:5.152
+Train Time:57.385
+~~~ Test Set Evaluation (Epoch:10) ~~~
+recall@1: 0.10693287
+recall@5: 0.27364352
+recall@10: 0.35149074
+precision@1: 0.04677546
+precision@5: 0.04193287
+precision@10: 0.02103472
+F-score@1: 0.06508215
+F-score@5: 0.07272191
+F-score@10: 0.03969399
+MAP 0.18694679
+predictions: 432000.0
+***Epoch:11/50***
+Used learning rate:0.001 ----- Avg Loss:5.025
+Train Time:59.041
+***Epoch:12/50***
+Used learning rate:0.001 ----- Avg Loss:4.617
+Train Time:57.393
+***Epoch:13/50***
+Used learning rate:0.001 ----- Avg Loss:4.478
+Train Time:57.400
+***Epoch:14/50***
+Used learning rate:0.001 ----- Avg Loss:4.405
+Train Time:57.384
+***Epoch:15/50***
+Used learning rate:0.001 ----- Avg Loss:4.358
+Train Time:59.002
+~~~ Test Set Evaluation (Epoch:15) ~~~
+recall@1: 0.14315741
+recall@5: 0.33409028
+recall@10: 0.40987269
+precision@1: 0.06387731
+precision@5: 0.05298843
+precision@10: 0.02553009
+F-score@1: 0.08833794
+F-score@5: 0.09146935
+F-score@10: 0.04806624
+MAP 0.23239860
+predictions: 432000.0
+***Epoch:16/50***
+Used learning rate:0.001 ----- Avg Loss:4.327
+Train Time:57.367
+***Epoch:17/50***
+Used learning rate:0.001 ----- Avg Loss:4.303
+Train Time:57.381
+***Epoch:18/50***
+Used learning rate:0.001 ----- Avg Loss:4.282
+Train Time:57.375
+***Epoch:19/50***
+Used learning rate:0.001 ----- Avg Loss:4.269
+Train Time:58.923
+***Epoch:20/50***
+Used learning rate:1e-05 ----- Avg Loss:4.260
+Train Time:57.377
+~~~ Test Set Evaluation (Epoch:20) ~~~
+recall@1: 0.14330787
+recall@5: 0.33720602
+recall@10: 0.41359954
+precision@1: 0.06395139
+precision@5: 0.05349769
+precision@10: 0.02564815
+F-score@1: 0.08843742
+F-score@5: 0.09234487
+F-score@10: 0.04830105
+MAP 0.23376107
+predictions: 432000.0
+***Epoch:21/50***
+Used learning rate:0.0001 ----- Avg Loss:4.202
+Train Time:57.367
+***Epoch:22/50***
+Used learning rate:0.0001 ----- Avg Loss:4.190
+Train Time:58.948
+***Epoch:23/50***
+Used learning rate:0.0001 ----- Avg Loss:4.191
+Train Time:57.378
+***Epoch:24/50***
+Used learning rate:0.0001 ----- Avg Loss:4.187
+Train Time:57.374
+***Epoch:25/50***
+Used learning rate:0.0001 ----- Avg Loss:4.189
+Train Time:58.996
+~~~ Test Set Evaluation (Epoch:25) ~~~
+recall@1: 0.14321296
+recall@5: 0.33609259
+recall@10: 0.41259259
+precision@1: 0.06390278
+precision@5: 0.05326157
+precision@10: 0.02554398
+F-score@1: 0.08837287
+F-score@5: 0.09195135
+F-score@10: 0.04810946
+MAP 0.23287042
+predictions: 432000.0
+***Epoch:26/50***
+Used learning rate:0.0001 ----- Avg Loss:4.184
+Train Time:57.374
+***Epoch:27/50***
+Used learning rate:0.0001 ----- Avg Loss:4.181
+Train Time:57.376
+***Epoch:28/50***
+Used learning rate:0.0001 ----- Avg Loss:4.179
+Train Time:58.890
+***Epoch:29/50***
+Used learning rate:0.0001 ----- Avg Loss:4.179
+Train Time:57.350
+***Epoch:30/50***
+Used learning rate:1.0000000000000002e-06 ----- Avg Loss:4.180
+Train Time:57.350
+~~~ Test Set Evaluation (Epoch:30) ~~~
+recall@1: 0.14255556
+recall@5: 0.33514120
+recall@10: 0.41208102
+precision@1: 0.06356944
+precision@5: 0.05308102
+precision@10: 0.02548843
+F-score@1: 0.08792895
+F-score@5: 0.09164667
+F-score@10: 0.04800745
+MAP 0.23220539
+predictions: 432000.0
+***Epoch:31/50***
+Used learning rate:1e-05 ----- Avg Loss:4.173
+Train Time:58.937
+***Epoch:32/50***
+Used learning rate:1e-05 ----- Avg Loss:4.174
+Train Time:57.370
+***Epoch:33/50***
+Used learning rate:1e-05 ----- Avg Loss:4.174
+Train Time:57.355
+***Epoch:34/50***
+Used learning rate:1e-05 ----- Avg Loss:4.177
+Train Time:57.383
+***Epoch:35/50***
+Used learning rate:1e-05 ----- Avg Loss:4.173
+Train Time:57.354
+~~~ Test Set Evaluation (Epoch:35) ~~~
+recall@1: 0.14249769
+recall@5: 0.33510185
+recall@10: 0.41206481
+precision@1: 0.06354630
+precision@5: 0.05308333
+precision@10: 0.02548611
+F-score@1: 0.08789580
+F-score@5: 0.09164865
+F-score@10: 0.04800323
+MAP 0.23213028
+predictions: 432000.0
+***Epoch:36/50***
+Used learning rate:1e-05 ----- Avg Loss:4.174
+Train Time:57.396
+***Epoch:37/50***
+Used learning rate:1e-05 ----- Avg Loss:4.171
+Train Time:57.385
+***Epoch:38/50***
+Used learning rate:1e-05 ----- Avg Loss:4.173
+Train Time:57.372
+***Epoch:39/50***
+Used learning rate:1e-05 ----- Avg Loss:4.172
+Train Time:57.391
+***Epoch:40/50***
+Used learning rate:1.0000000000000002e-07 ----- Avg Loss:4.171
+Train Time:58.883
+~~~ Test Set Evaluation (Epoch:40) ~~~
+recall@1: 0.14221528
+recall@5: 0.33504167
+recall@10: 0.41201157
+precision@1: 0.06340278
+precision@5: 0.05306481
+precision@10: 0.02547685
+F-score@1: 0.08770478
+F-score@5: 0.09161879
+F-score@10: 0.04798645
+MAP 0.23195529
+predictions: 432000.0
+***Epoch:41/50***
+Used learning rate:1.0000000000000002e-06 ----- Avg Loss:4.169
+Train Time:57.400
+***Epoch:42/50***
+Used learning rate:1.0000000000000002e-06 ----- Avg Loss:4.168
+Train Time:57.369
+***Epoch:43/50***
+Used learning rate:1.0000000000000002e-06 ----- Avg Loss:4.171
+Train Time:58.905
+***Epoch:44/50***
+Used learning rate:1.0000000000000002e-06 ----- Avg Loss:4.172
+Train Time:57.354
+***Epoch:45/50***
+Used learning rate:1.0000000000000002e-06 ----- Avg Loss:4.168
+Train Time:57.385
+~~~ Test Set Evaluation (Epoch:45) ~~~
+recall@1: 0.14224074
+recall@5: 0.33503935
+recall@10: 0.41201620
+precision@1: 0.06341435
+precision@5: 0.05306250
+precision@10: 0.02547917
+F-score@1: 0.08772070
+F-score@5: 0.09161526
+F-score@10: 0.04799059
+MAP 0.23196051
+predictions: 432000.0
+***Epoch:46/50***
+Used learning rate:1.0000000000000002e-06 ----- Avg Loss:4.171
+Train Time:58.473
+***Epoch:47/50***
+Used learning rate:1.0000000000000002e-06 ----- Avg Loss:4.164
+Train Time:57.936
+***Epoch:48/50***
+Used learning rate:1.0000000000000002e-06 ----- Avg Loss:4.171
+Train Time:57.836
+***Epoch:49/50***
+Used learning rate:1.0000000000000002e-06 ----- Avg Loss:4.168
+Train Time:58.589
+***Epoch:50/50***
+Used learning rate:1.0000000000000002e-06 ----- Avg Loss:4.171
+Train Time:57.597
+~~~ Test Set Evaluation (Epoch:50) ~~~
+recall@1: 0.14224074
+recall@5: 0.33504167
+recall@10: 0.41201157
+precision@1: 0.06341435
+precision@5: 0.05306019
+precision@10: 0.02547917
+F-score@1: 0.08772070
+F-score@5: 0.09161189
+F-score@10: 0.04799055
+MAP 0.23195981
+predictions: 432000.0
